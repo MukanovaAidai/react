@@ -13,6 +13,7 @@ const Lifecycle = (props) =>{
      
   }, [])
   
+  
   return(
     <div>
       {isLoading ? <div>Loader...</div>:
